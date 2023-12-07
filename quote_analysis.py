@@ -67,8 +67,8 @@ vals = list(sorted_dict.values())
 toptenvals = vals[:10]
 
 fig = px.bar(x=toptenauths, y=toptenvals, 
-             labels={"x":"Author", "y":"# of quotes"}, 
-             title="Top Ten Authors by Quotes")
+             labels={"x":"Author", "y":"No. of quotes"}, 
+             title="Top Ten Authors by Number of Quotes")
 
 fig.show()
 #Top ten tags based on frequency used:
@@ -81,8 +81,8 @@ freq = list(sorted_tags.values())
 toptenfreq = freq[:10]
 
 fig = px.bar(x=toptentags, y=toptenfreq, 
-             labels={"x":"Tag", "y":"# of frequency"}, 
-             title="Top Ten Tags by Frequency")
+             labels={"x":"Tag", "y":"No. of times used"}, 
+             title="Top Ten Tags by Popularity")
 
 fig.show()
 
