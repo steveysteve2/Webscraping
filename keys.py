@@ -13,5 +13,5 @@ bearer_token = ''
 #twilio keys
 accountsid = 'ACb15b76fd9b6b0b1ca3e4bccb52a65348'
 
-authToken = 'd78f716e780fd146f6dad76eda6aae23'
+authToken = 'c9d6ece93d0cc854861ed6c5faf9ccab'
 
